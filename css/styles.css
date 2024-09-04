@@ -1,1 +1,49 @@
-/* Add custom css styles here */
+.header {
+    position: relative;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+  }
+  .header-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1;
+  }
+  .header-content{
+    background-color: rgba(22, 18, 18, 0.383);
+    border-radius: 10%;
+  }
+   
+  .header-content {
+    text-align: center;
+  }
+
+  .img-fluid{
+    border-radius: 50%;
+  }
+  
+  
+  .about-us {
+    margin-top: 40px;
+    background-color: #babdcf; 
+  }
+  
+  .about-us img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .footer h2 {
+    background-color: #1931a7; 
+    color: white; 
+    padding: 20px 0;
+    text-align: center; 
+  }
+  
